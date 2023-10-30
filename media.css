@@ -1,0 +1,606 @@
+@media screen and (max-width:500px){
+    *{
+        overflow-x: hidden;
+    }
+
+    .rewards-div{
+        width: 100px;
+        height: 60px;
+        margin-bottom: 80px;
+        border-radius: 5px; 
+    }
+    .rewards-image{
+        border-radius: 0px;
+    }
+
+    /* ---___Nav Bar__--- */
+
+    .head{
+        width: 100%;
+        height: 55px;
+        position: relative;
+        background-image: linear-gradient(white,#d2d2d2);
+    }
+    .logo-div{        
+        /* background-color: aqua; */
+        width: 240px;
+        align-items: center;
+    }
+    .logo-img{
+        width: 70px;
+    }
+    .locations-div{
+        /* background-color: chartreuse; */
+        /* width: 230px; */
+        display: none;
+    }
+    /* .locations-icon-div{
+        background-color: darkseagreen;
+        width: 8px;
+    }
+    .loc-and-address-text-div{
+        background-color: rgb(84, 84, 187);
+        width: 100%;
+    }
+    .hello-text{
+        background-color: aqua;
+        font-size: 7px;
+    }
+    .select-address-text{
+        background-color: darkkhaki;
+        font-size: 6px;
+        margin-bottom: 2px;
+    } */
+    .searchbar-div{
+        /* background-color: rgb(78, 221, 53); */
+        width: 510px;
+    }
+    .selection-in-search{
+        display: none;
+    }
+
+    .search-bar{
+        background-color: rgb(255, 255, 255);
+        width: 150px;
+        height: 30px;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        border-style: 1px solid grey; 
+    }
+
+    .search-button{
+        width: 30px;
+        height: 30px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+    .search-icon{
+        width: 10px;
+    }
+
+    .country-div{
+        /* background-color: rgb(221, 69, 150);
+        width: 100px;
+        justify-content: center; */
+        display: none;
+    }
+    /* .india-pic{
+        width: 10px;
+        display: none;
+    }
+    .language-select{
+        width: 35px;
+        height: 6px;
+        background-color: white;
+        border-style: none;
+        display: flex;
+        text-align: center;
+    } */
+    
+    /* .signin-div{
+        background-color: aqua;
+    } */
+    .signin-text{
+        margin-top: 3px;
+        font-size: 7px;
+        font-weight: 700;
+        text-align: center;
+        /* display: none; */
+    }
+    .account-select{
+        margin-left: 98px;
+        margin-bottom: 3px;
+        font-size: 5px;
+        display: none;
+    }
+
+    .return-order-div{
+        background-color: chartreuse;
+        display: none;
+    }
+    /* .return-text{
+        font-size: 5px;
+    }
+    .orders-text{
+        font-size: 5px;
+    } */
+
+    /* .cart-div{
+        background-color: darkorange;
+    } */
+    .cart-icon{
+        width: 17px;
+        height: 17px;
+    }
+    .cart-text{
+        display: none;
+    }
+
+
+    /* ---___Today Deals___--- */
+
+    .deals-maindiv{
+        background: #232f3e;
+        height: 20px;
+        position: relative;
+    }
+     .all-maindiv{
+        /* background-color: blueviolet; */
+        width: 60px;
+    } 
+    /* .all-sub-div{
+        background-color: chartreuse;
+    } */
+    .option-All-line-div{
+        /* background-color: rgb(6, 6, 6); */
+        background: #232f3e;
+        width: 8px;
+        height: 8px;
+    }
+    .option-line{
+        height: 1px;
+        background-color: beige;
+    }
+    .all-text{
+        font-size: 11px;
+        color: white;
+    }
+    .amazon-minitv-div{
+        display: none;   
+    }
+    /* .sell-div{
+        background-color: rgb(229, 229, 235);
+    } */
+    .sell-text{
+        font-size: 11px;
+        color: rgb(213, 208, 208);
+    }
+    .bestseller-div{
+        display: none;
+    }
+    .todayDeals-div{
+        display: none;
+    }
+    /* .mobiles-div{
+        background-color: rgb(229, 229, 235);
+    } */
+    .mobiles-text{
+        font-size: 11px;
+        color: rgb(213, 208, 208);
+    }
+    .NewReleases-div{
+        display: none;
+    }
+    .customerservice-div{
+        display: none;
+    }
+    .prime-div{
+        display: none;
+    }
+    .electronics-div{
+        display: none;
+    }
+    .giftideas-div{
+        display: none;
+    }
+    .newlaunches-parent-div{
+        /* background-color: tan; */
+        height: 100%;
+    }
+    .newlaunches-sub-div{
+        /* background-color: aqua; */
+        width: 70%;
+        height: 70%;
+        margin-right: 3px;
+        border:1px solid rgb(180, 174, 174);
+    }
+    .newlaunches-text{
+        font-size: 6px;
+        color: white;
+    }
+
+
+
+    /* ---___Home Full___--- */
+
+    .home-full-main{
+        /* background-color: chartreuse; */
+        height: 606vh;
+        overflow-y: hidden;
+    }
+
+          /* --__Swiping Slide__-- */
+
+    .swiping-maindiv{
+        /* background-color: blue; */
+        height: 95px;
+    }
+    .leftside-swipe-div{
+        /* background-color: violet; */
+        width: 50px;
+        height: 50px;
+    }
+    .arrow-left-icon{
+        width: 20px;
+        height: 25px;
+    }
+    .rightside-swipe-div{
+        /* background-color: violet; */
+        width: 50px;
+        height: 50px;
+    }
+    .arrow-right-icon{
+        width: 20px;
+        height: 25px;
+    }
+
+    /* --__Offers__-- */
+
+        /* __First Offer__ */
+
+    .offers-maindiv{
+        /* background-image: linear-gradient(tomato,tomato); */
+        background-image:linear-gradient(rgb(102, 206, 254),rgb(102, 206, 254),rgb(102, 206, 254));
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        overflow-y: hidden;
+    }
+    .double-box-div-first{
+        /* background-color: blue; */
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        /* border: 1px solid #232f3e; */
+    }
+    .double-box-div-second{
+        /* background-color: rgb(83, 192, 61); */
+        width: 100%;
+        display: flex;
+        /* border: 1px solid; */
+    }
+
+
+    .offers-subdiv{
+        /* background-color: yellow; */
+        width: 47%;
+        height: 90%;
+    }
+    .offer-headline-div{
+        /* background-color: violet; */
+        width: 100%;
+    }
+    .offer-headline-text{
+        font-size: 12px;
+        display: flex;
+        text-align: center;
+    }
+    /* .picRow-div{
+        background-color: deepskyblue;
+    } */
+    /* .leftTop-pic-div{
+        background-color: coral;
+    } */
+    .leftTop-image{
+        width: 95%;
+    }
+    .label-text{
+        font-size: 6.5px;
+        text-align: center;
+        margin-bottom: 3px;
+        margin-right: 2px;
+        overflow-y: hidden;
+    }
+    /* .rightTop-pic-div{
+        background-color: chartreuse;
+    } */
+    .rightTop-image{
+        width: 95%;
+    }
+    /* .leftBottom-pic-div{
+        background-color: darkolivegreen;
+    } */
+    .leftBottom-image{
+        width: 95%;
+    }
+    /* .rightBottom-pic-div{
+        background-color: crimson;
+    } */
+    .rightBottom-image{
+        width: 95%;
+    }
+    /* .seeAllOffers-div{
+        background-color: cornflowerblue;
+    } */
+    .seeAllOffers-text{
+        font-size: 7px;
+    }
+
+
+        /* __Second Offer__ */
+
+    .offers-maindiv-two{
+        background-color: cadetblue;
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        overflow-y: hidden;
+    }
+
+
+    /* ---___Today Deals___--- */
+
+    
+    .TodayDeals-main{
+        /* background-color: brown; */
+        height: 272vh;
+    }
+    .TodayDeals-subdiv{
+        /* background-color: rgb(239, 64, 239); */
+        width: 95%;
+        height: 267vh;
+    }
+    .todayDeals-headline-maindiv{
+        /* background-color: cadetblue; */
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .todaydeals-headtext-div{
+        /* background-color: crimson; */
+        width: 30%;
+        display: flex;
+        align-items: center;
+    }
+    .today-deals-text{
+        font-size: 14px;
+        margin-top: 6px;
+    }
+    .seeAll-deals-textdiv{
+        /* background-color: rgb(208, 66, 101); */
+        width: 20%;
+    }
+    .seeAll-deals-text{
+        font-size: 8px;
+
+    }
+
+    /* __Items__ */
+
+    .todayDeals-items-maindiv{
+        /* background-color: rgb(221, 221, 221); */
+        height: 260vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .deal-item-div{
+        /* background-color: aqua; */
+        width: 55%;
+        height: 310px;
+        border-radius: 3px;
+        box-shadow: 0px 0px 8px 3px #cabebe;
+    }
+    .item-image-div{
+        /* background-color: rgb(10, 91, 198); */
+        box-shadow: none;
+        overflow: hidden;
+    }
+    .deals-rate-div{
+        /* background-color: rgba(169, 169, 169, 0.26); */
+        /* width: 100%; */
+        height: 98px;
+    }
+    .discount-maindiv{
+        /* background-color: darkcyan; */
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-direction: column; */
+    }
+    .discount-div{
+        width: 35%;
+        height: 76%;
+        overflow-y: hidden;
+        margin-left: 45px;
+    }
+    #offer-percentage{
+        font-size: 7px;
+        text-align: center;
+    }
+    .dealofDay-text{
+        font-size: 7px;
+        margin-right: 30px;
+    }
+    .price-specs{
+        /* background-color: aquamarine; */
+        text-align: center;
+    }
+    .price{
+        font-size: 11px;
+    }
+    .name-spec{
+        font-size: 10px;
+    }
+
+
+
+
+
+    /* ----____Amazon Live____---- */
+
+
+    .amazonLive-parent{
+        /* background-color: cadetblue; */
+        height: 71vh;
+        overflow: hidden;
+    }
+    .amazonLive-subdiv{
+        /* background-color: chocolate; */
+        height: 73vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .amazonLive-headline-maindiv{
+        /* background-color: darkgreen; */
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+
+    }
+    .amazonLive-headline-textdiv{
+        /* background-color: darkslateblue; */
+        width: 60%;
+        display: flex;
+        justify-content: start;
+        margin-top: 4px;
+    }
+    .amazonLive-head-text{
+        font-size: 10px;
+    }
+    .seeMore-amazontext-div{
+        /* background-color: deeppink; */
+        width: 30%;
+        overflow: hidden;
+    }
+    .seeMore_amazonText{
+        font-size: 7px;
+    }
+
+
+        /* ___Left Side___ */
+
+    
+    .Amazon-video_offer-maindiv{
+        /* background-color: darksalmon; */
+        display: flex;
+        flex-direction: column;
+    }
+    .left-video-maindiv{
+        /* background-color: chartreuse; */
+        width: 100%;
+        height: 360px;
+    }
+    .video-div{
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
+       /* ___Right Side___ */
+
+    .rightside-maindiv{
+        /* background-color: forestgreen; */
+        width: 100%;
+    }
+    #carouselExample{
+        /* background-color: antiquewhite; */
+        width: 100%;
+        height: 180px;
+    }
+
+
+    /* ----___Sign IN___---- */
+
+
+    .bottom-signin-parentdiv{
+        /* background-color: violet; */
+        height: 140px;
+    }
+    .signin-subdiv{
+        /* background-color: crimson; */
+        height: 115px;
+        width: 325px;
+        overflow: hidden;
+    }
+    .startHere-div{
+        overflow: hidden;
+    }
+
+
+
+
+    /* ---___Footer___--- */
+
+    .footer-parent-div{
+        width: 100%;
+        height: 65vh;
+    }
+    .connected-links-maindiv{
+        width: 100%;
+        height: 60%;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .getknow-us-div{
+        display: none;
+    }
+    .connectwith-us-div{
+        width: 50%;
+    }
+    .make-money-div{
+        display: none;
+    }
+    .letus-help-div{
+        width: 50%;
+    }
+
+    /* ---___Logo & Nations___--- */
+
+    .logo-language-div{
+        width: 100%;
+        height: 55px;
+    }
+
+
+    .bottom-logo-nations-main{
+        /* background-color: aqua; */
+        height: 110px;
+    }
+
+        /* Nations */
+
+    .nations-subdiv{
+        /* background-color: chocolate; */
+        width: 100%;
+        text-align: center;
+        display: inline;
+        justify-content: space-evenly;
+    }
+    .country-link{
+        font-size: 7px;
+        text-align: center;
+    }
+
+    
+
+
+}
